@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+footer {}
+
+a {
+    color: white;
+    /* Is only meant for Terms of use stuff. */
+
+    justify-content: space-evenly;
+
+}
+
+a:link {
+    text-decoration: none;
+    /* Removes the underline from the Terms of use stuff. */
+}

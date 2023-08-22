@@ -3,25 +3,28 @@ body {
     color: white;
 }
 
-.closes-login-page {
-    display: flex;
-    justify-content: end;
+.close-container {
+    margin-left: 56rem;
+    margin-top: 2rem;
 }
 
 h1 {
     margin-left: 12rem;
     margin-top: 4rem;
-
 }
 
 h2 {
-    margin-left: 12rem;
-
+    margin-left: 13rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
 }
 
 .form-group {
     margin: 3rem 35rem 0rem 4rem;
+}
 
+.form-control {
+    font-size: 1.5rem;
 }
 
 #email-input {
@@ -45,41 +48,63 @@ h2 {
 #sign-in-button {
     margin-top: 4rem;
     margin-left: 4rem;
+    margin-bottom: 2rem;
     width: 21rem;
     height: 3.5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 footer {}
 
 
 
-.help-signing-in {//////////
+.help-signing-in {
     margin-left: 4rem;
-    margin-top: 2rem;
+    font-weight: bold;
 }
 
 .help-signing-in:link,
 .register-now {
     text-decoration: solid;
-    color: rgb(87, 87, 215);
+    color: rgb(46, 143, 255);
 
+}
+
+.do-not-have-bbc-account {
+    margin-left: 7rem;
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .register-now {
-    color: rgb(87, 87, 215);
+    color: rgb(46, 143, 255);
+    margin-left: 11rem;
+    font-weight: bold;
 }
 
-.register-now-underline {
-    color: rgb(87, 87, 215);
+.underline {
+    color: rgb(46, 143, 255);
+}
+
+.find-out-more {
+    margin-top: 10rem;
+    font-weight: bold;
 }
 
 a {
     color: white;
     /* Is only meant for Terms of use stuff. */
     justify-content: space-evenly;
-
 }
+
 a:link {
     text-decoration: none;
     /* Removes the underline from the Terms of use stuff. */
+}
+
+.get-personalised-newsletters {
+    display: flex;
+    justify-content: start;
 }

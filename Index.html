@@ -14,20 +14,34 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
         crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Index.css">
 
     <title>BBC - Sign in</title>
     <link rel="icon" type="image/png" href="/Images/BBC_Icon.png" alt="Favicon Icon of the BBC Logo.">
 
-
 </head>
 
 <body>
-    <p class="closes-login-page">x</p>
+    <div class="close-container">
+        <a class="closes-login-page" href="ClosesLoginPage.html">
+            <img src="/Images/Close_Symbol.png" alt="Close Symbol.">
+        </a>
+    </div>
 
-    <h1>BBC</h1>
+    <h1>
+        <div class="bbc-logo-container">
+            <a class="bbc-logo" href="BBCWebpage.html">
+                <img src="/Images/BBC_Icon.png" alt="BBC Logo.">
+            </a>
+        </div>
+    </h1>
+
     <h2>Sign in</h2>
+
+    <img class="left-half-of-picture" src="/Images/Pictures_Part_1.png" alt="Picturs of various people and places.">
+    <img class="right-half-of-picture" src="/Images/Pictures_Part_2.png" alt="Picturs of various people and places.">
+
 
     <form>
         <div class="form-group">
@@ -42,9 +56,9 @@
     </form>
 
 
-    <a class="help-signing-in" href="HelpSigningIn.html">Need help signing in?</a>
+    <u class="underline"> <a class="help-signing-in" href="HelpSigningIn.html">Need help signing in?</a></u>
     <p class="do-not-have-bbc-account">Don't have a BBC account?</p>
-    <u class="register-now-underline"><a class="register-now" href="RegisterNow.html">Register now</a></u>
+    <u class="underline"><a class="register-now" href="RegisterNow.html">Register now</a></u>
     <p class="find-out-more">Find out more about BBC accounts</p>
 
     <footer>
@@ -55,12 +69,10 @@
         <a href="AccessibilityHelp.html">Accessibility Help</a>
         <a href="ParentalGuidance.html">Parental Guidance</a>
         <a href="ContactTheBBC.html">Contact the BBC</a>
-        <a href="GetPersonalisedNewsletters.html">Get Personalised Newsletters</a>
 
-        <br />
-        <br />
-
-        <p>Copyright © 2023 BBC. The BBC is not responsible for the content of external sites. <u>Read about our
+        <a class="get-personalised-newsletters" href="GetPersonalisedNewsletters.html">Get Personalised Newsletters</a>
+        <p clas="copyright">Copyright © 2023 BBC. The BBC is not responsible for the content of external sites. <u>Read
+                about our
                 approach to external linking.</u></p>
     </footer>
 

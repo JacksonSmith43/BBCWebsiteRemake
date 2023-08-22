@@ -18,20 +18,36 @@
     <link rel="stylesheet" href="Index.css">
 
     <title>BBC - Sign in</title>
+    <link rel="icon" type="image/png" href="/Images/BBC_Icon.png" alt="Favicon Icon of the BBC Logo.">
+
 
 </head>
 
 <body>
+    <p class="closes-login-page">x</p>
 
     <h1>BBC</h1>
-    <p>x</p>
     <h2>Sign in</h2>
 
-    <p>Don´t have a BBC account?</p>
-    <u>
-        <p>Register now</p>
-    </u>
-    <p>Find out more about BBC accounts</p>
+    <form>
+        <div class="form-group">
+            <input type="email" class="form-control" id="email-input" aria-describedby="Email input."
+                placeholder="Email or username">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="password-input" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+
+
+    <a href="HelpSigningIn.html">Need help signing in?</a>
+
+    <p class="do-not-have-bbc-account">Don´t have a BBC account?</p>
+    <a href="RegisterNow.html">Register now</a>
+
+    <p class="find-out-more">Find out more about BBC accounts</p>
 
     <footer>
 

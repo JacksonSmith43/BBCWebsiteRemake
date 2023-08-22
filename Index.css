@@ -3,6 +3,23 @@ body {
     color: white;
 }
 
+.closes-login-page {
+    display: flex;
+    justify-content: end;
+}
+
+h1 {
+    margin-left: 12rem;
+    margin-top: 4rem;
+
+}
+
+h2 {
+    margin-left: 12rem;
+
+}
+
+
 footer {}
 
 a {

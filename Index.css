@@ -19,17 +19,66 @@ h2 {
 
 }
 
+.form-group {
+    margin: 3rem 35rem 0rem 4rem;
+
+}
+
+#email-input {
+    background-color: black;
+    border-color: black;
+}
+
+#email-input::placeholder {
+    color: gray;
+}
+
+#password-input {
+    background-color: black;
+    border-color: black;
+}
+
+#password-input::placeholder {
+    color: gray;
+}
+
+#sign-in-button {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    width: 21rem;
+    height: 3.5rem;
+}
 
 footer {}
+
+
+
+.help-signing-in {//////////
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.help-signing-in:link,
+.register-now {
+    text-decoration: solid;
+    color: rgb(87, 87, 215);
+
+}
+
+.register-now {
+    color: rgb(87, 87, 215);
+}
+
+.register-now-underline {
+    color: rgb(87, 87, 215);
+}
 
 a {
     color: white;
     /* Is only meant for Terms of use stuff. */
-
     justify-content: space-evenly;
 
 }
-
 a:link {
     text-decoration: none;
     /* Removes the underline from the Terms of use stuff. */

@@ -29,37 +29,52 @@
         </a>
     </div>
 
-    <h1>
-        <div class="bbc-logo-container">
-            <a class="bbc-logo" href="BBCWebpage.html">
-                <img src="/Images/BBC_Icon.png" alt="BBC Logo.">
-            </a>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>
+                    <div class="bbc-logo-container">
+                        <a class="bbc-logo" href="BBCWebpage.html">
+                            <img src="/Images/BBC_Icon.png" alt="BBC Logo.">
+                        </a>
+                    </div>
+                </h1>
+
+                <h2>Sign in</h2>
+
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email-input" aria-describedby="Email input."
+                            placeholder="Email or username">
+                        <div class="line-under-input"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password-input" placeholder="Password">
+                        <div class="line-under-input"></div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="sign-in-button">Sign in</button>
+                </form>
+
+                <u class="underline"> <a class="help-signing-in" href="HelpSigningIn.html">Need help signing in?</a></u>
+                <div class="line-under-help-signing-in"></div>
+
+                <p class="do-not-have-bbc-account">Don't have a BBC account?</p>
+                <u class="underline"><a class="register-now" href="RegisterNow.html">Register now</a></u>
+            </div>
+
+            <div class="col" id="random-pictures">
+                <img class="left-half-of-picture" src="/Images/Pictures_Part_1.png"
+                    alt="Picturs of various people and places.">
+                <img class="right-half-of-picture" src="/Images/Pictures_Part_2.png"
+                    alt="Picturs of various people and places.">
+            </div>
         </div>
-    </h1>
 
-    <h2>Sign in</h2>
+    </div>
 
-    <img class="left-half-of-picture" src="/Images/Pictures_Part_1.png" alt="Picturs of various people and places.">
-    <img class="right-half-of-picture" src="/Images/Pictures_Part_2.png" alt="Picturs of various people and places.">
-
-
-    <form>
-        <div class="form-group">
-            <input type="email" class="form-control" id="email-input" aria-describedby="Email input."
-                placeholder="Email or username">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <input type="password" class="form-control" id="password-input" placeholder="Password">
-        </div>
-        <button type="submit" class="btn btn-primary" id="sign-in-button">Sign in</button>
-    </form>
-
-
-    <u class="underline"> <a class="help-signing-in" href="HelpSigningIn.html">Need help signing in?</a></u>
-    <p class="do-not-have-bbc-account">Don't have a BBC account?</p>
-    <u class="underline"><a class="register-now" href="RegisterNow.html">Register now</a></u>
     <p class="find-out-more">Find out more about BBC accounts</p>
+    <div class="line-under-find-out-more"></div>
 
     <footer>
         <a href="TermsOfUse.html">Terms of use</a>

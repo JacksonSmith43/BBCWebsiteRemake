@@ -4,7 +4,7 @@ body {
 }
 
 .close-container {
-    margin-left: 56rem;
+    margin-left: 60rem;
     margin-top: 2rem;
 }
 
@@ -20,7 +20,7 @@ h2 {
 }
 
 .form-group {
-    margin: 3rem 35rem 0rem 4rem;
+    margin: 3rem 15rem 0rem 4rem;
 }
 
 .form-control {
@@ -30,19 +30,28 @@ h2 {
 #email-input {
     background-color: black;
     border-color: black;
+    color: white;
 }
 
 #email-input::placeholder {
     color: gray;
 }
 
+
 #password-input {
     background-color: black;
     border-color: black;
+    color: white;
+
 }
 
 #password-input::placeholder {
     color: gray;
+}
+
+.line-under-input {
+    border-bottom: 0.1rem solid white;
+    width: 140%;
 }
 
 #sign-in-button {
@@ -62,6 +71,14 @@ footer {}
 .help-signing-in {
     margin-left: 4rem;
     font-weight: bold;
+
+}
+
+.line-under-help-signing-in {
+    border-bottom: 0.1rem solid white;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 63%;
 }
 
 .help-signing-in:link,
@@ -88,9 +105,20 @@ footer {}
     color: rgb(46, 143, 255);
 }
 
+.right-half-of-picture {
+    margin-bottom: -7.5rem;
+}
+
+
 .find-out-more {
     margin-top: 10rem;
     font-weight: bold;
+}
+
+.line-under-find-out-more {
+    border-bottom: 0.1rem solid white;
+    /* Adding the bottom line */
+    margin-bottom: 0.75rem;
 }
 
 a {
@@ -107,4 +135,6 @@ a:link {
 .get-personalised-newsletters {
     display: flex;
     justify-content: start;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
 }

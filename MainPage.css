@@ -1,0 +1,27 @@
+.navbar {
+    list-style: none;
+    background-color: black;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    border-bottom: 0.1rem solid white;
+}
+
+h4{
+    font-weight: bold;
+}
+
+#left-picture {
+    margin-left: 27rem;
+}
+
+.bbc-logo {
+    margin-right: 2rem;
+    margin-left: 8rem;
+}
